@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img1 {
+  background-image: url(https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.mssg1 {
+  color: white;
+  font-size: 40px;
+}
+
+.heading {
+  font-size: 60px;
+}
+
+.mssgbottom {
+  background-color: #161619;
+  height: 200px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  padding-top: 40px;
+  letter-spacing: 1.2px;
+}
+
+.you {
+  font-size: 90px;
+}
+
+.projects {
+  background-color: white;
+  height: 400px;
+}
+
+.details {
+  color: white;
+  font-size: 15px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.headingBottom {
+  font-size: 45px;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  padding-top: 35px;
+}
+
+.about {
+  background-color: #722300;
+}
+
+.contact {
+  background-color: #515603;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.projects {
+  color: black;
+  font-size: 15px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 10px;
+}
+
+.web,
+.app,
+.ux {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  border: 1px solid #c5c5c5;
+  border-radius: 14px;
+  box-shadow: 1px 5px 5px #c5c5c5;
+}
+
+.web :hover,
+.app :hover,
+.ux :hover {
+  transition: 200ms ease-in-out;
+  transform: scale(1.04);
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+}
+
+img {
+  height: 45%;
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+}
+
+.projects h2 {
+  margin-top: 20px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #161619;
+  font-weight: lighter;
+}
+
+.footer {
+  background-color: black;
+  height: 220px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 170px;
+  letter-spacing: 1.2px;
+}
